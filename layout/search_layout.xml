@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- res/layout/search_layout.xml -->
+    <!-- res/layout/search_layout.xml -->
+    <!-- res/layout/search_layout.xml -->
+    <!-- res/layout/search_layout.xml -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Search button with icon -->
+        <TextView
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="#FFDDDF"
+            android:background="@drawable/rounded_button"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
